@@ -1,0 +1,22 @@
+public class papagaio extends animal {
+    private String Bico;
+    private String Pena;
+    private String Asa;
+
+    public papagaio(String Nome, int Idade, String Especie, String Bico, String Pena, String Asa){
+        super(Nome, Idade, Especie);
+        this.Bico = Bico;
+        this.Pena = Pena;
+        this.Asa = Asa;
+    }
+    @Override
+    public void exibirInformacao(){
+        System.out.println("====PAPAGAIO====");
+        System.out.println("Nome:"+ Nome);
+        System.out.println("Idade:"+ Idade);
+        System.out.println("Especie:"+ Especie);
+        System.out.println("Bico:"+ Bico);
+        System.out.println("Pena:"+ Pena);
+        System.out.println("Asa:"+ Asa);
+    }
+}
